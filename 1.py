@@ -30,4 +30,3 @@ for step in range(201):
     sess.run(train)
     if step % 20 == 0:
         print(step, sess.run(Weights), sess.run(biases))
-        #开始学习
